@@ -6,6 +6,10 @@
   Things I have worked with:
 </p>
 
+<p align="center">
+  ![image]({(https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)})
+</p>
+ 
 
 <!--
 **aarush6848ddh/aarush6848ddh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
