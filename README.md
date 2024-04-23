@@ -1,5 +1,11 @@
-# Hi there, I'm Aarush Singh! 🚀 
+# Hi there, I'm Aarush Singh! 🎯
+
 ### I'm a software developer passionate about building innovative solutions. My interests span across full stack web development, Artificial Intelligence, and machine learning. Currently, I'm pursuing a major in Computer Science and a minor in Data Science at Northeastern University. 
+
+<p align="center">
+  Things I have worked with:
+</p>
+
 
 <!--
 **aarush6848ddh/aarush6848ddh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
