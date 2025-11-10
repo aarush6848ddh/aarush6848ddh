@@ -148,10 +148,10 @@
 
 ---
 
-
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=aarush6848ddh&theme=dark" alt="GitHub Streak" />
+  [![GitHub Streak](https://streak-stats.demolab.com/?user=YOUR_GITHUB_USERNAME&theme=dark)](https://git.io/streak-stats)
 </p>
+
 
 ---
 
