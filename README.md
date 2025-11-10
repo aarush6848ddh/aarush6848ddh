@@ -150,7 +150,7 @@
 
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=aarush6848ddh&theme=radical&hide_border=true" alt="GitHub Streak" />
+  [![GitHub Streak](https://streak-stats.demolab.com/?user=DenverCoder1&theme=dark)](https://git.io/streak-stats)
 </p>
 
 ---
