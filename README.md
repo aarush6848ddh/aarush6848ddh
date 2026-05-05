@@ -1,11 +1,9 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Aarush%20Singh&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20AI%20%26%20ML%20Enthusiast&descAlignY=58&descSize=18&animation=fadeIn" />
-</p>
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&height=80&lines=Hi+there%2C+I'm+Aarush+Singh+%F0%9F%8E%AF" alt="Header" />
+</h1>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Computer+Science+%40+Northeastern+University;Full+Stack+%7C+AI+%7C+Machine+Learning;Building+things+that+actually+work.;Always+learning%2C+always+shipping." alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=7DD3FC&center=true&vCenter=true&width=600&lines=Computer+Science+%40+Northeastern+University;Full+Stack+%7C+AI+%7C+Machine+Learning;Building+things+that+actually+work.;Always+learning%2C+always+shipping." alt="Typing SVG" />
 </p>
 
 <br/>
@@ -176,5 +174,5 @@ portfolio  : aarushsingh.netlify.app
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=9999&color=555555&center=true&vCenter=true&width=400&lines=Thanks+for+stopping+by+%F0%9F%91%8B" alt="Footer" />
 </p>
