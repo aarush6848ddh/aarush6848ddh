@@ -2,12 +2,6 @@
   <img src="./header.svg" width="100%" alt="Aarush Singh — Header"/>
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=2000&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+agentic+AI+systems+from+scratch.;Full+stack+%7C+AI+%7C+ML+%E2%80%94+always+shipping.;CS+%40+Northeastern+%7C+specializing+in+AI.;Turning+ideas+into+production+systems." alt="Typing SVG" />
-</p>
-
-<br/>
-
 ---
 
 ### `> whoami`
