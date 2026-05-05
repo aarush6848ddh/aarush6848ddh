@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="900" height="280">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0c29"/>
+      <stop offset="50%" style="stop-color:#302b63"/>
+      <stop offset="100%" style="stop-color:#24243e"/>
+    </linearGradient>
+
+    <!-- Hero text gradient: purple → blue -->
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c084fc"/>
+      <stop offset="50%" style="stop-color:#818cf8"/>
+      <stop offset="100%" style="stop-color:#38bdf8"/>
+    </linearGradient>
+
+    <!-- Glow filter for hero text -->
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Soft glow for dots -->
+    <filter id="dotGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Wave gradient -->
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:0.8"/>
+      <stop offset="50%" style="stop-color:#6366f1;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:0.8"/>
+    </linearGradient>
+
+    <!-- Top accent gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="50%" style="stop-color:#a78bfa"/>
+      <stop offset="100%" style="stop-color:#38bdf8"/>
+    </linearGradient>
+
+    <!-- Pill gradient -->
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:0.35"/>
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:0.35"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="280" fill="url(#bgGrad)" rx="16"/>
+
+  <!-- Top waving accent line -->
+  <path d="M0,8 Q225,0 450,8 Q675,16 900,8" stroke="url(#accentGrad)" stroke-width="2.5" fill="none" opacity="0.9"/>
+
+  <!-- Decorative grid dots (subtle) -->
+  <g opacity="0.08">
+    <circle cx="60" cy="60" r="1.5" fill="#a78bfa"/>
+    <circle cx="120" cy="60" r="1.5" fill="#a78bfa"/>
+    <circle cx="180" cy="60" r="1.5" fill="#a78bfa"/>
+    <circle cx="60" cy="120" r="1.5" fill="#a78bfa"/>
+    <circle cx="120" cy="120" r="1.5" fill="#a78bfa"/>
+    <circle cx="720" cy="60" r="1.5" fill="#38bdf8"/>
+    <circle cx="780" cy="60" r="1.5" fill="#38bdf8"/>
+    <circle cx="840" cy="60" r="1.5" fill="#38bdf8"/>
+    <circle cx="720" cy="120" r="1.5" fill="#38bdf8"/>
+    <circle cx="780" cy="120" r="1.5" fill="#38bdf8"/>
+    <circle cx="840" cy="120" r="1.5" fill="#38bdf8"/>
+  </g>
+
+  <!-- Corner glowing dots (animated pulse) -->
+  <circle cx="36" cy="36" r="5" fill="#a78bfa" filter="url(#dotGlow)" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="5;7;5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="864" cy="36" r="5" fill="#38bdf8" filter="url(#dotGlow)" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="5;7;5" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="36" cy="244" r="5" fill="#6366f1" filter="url(#dotGlow)" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="5;7;5" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="864" cy="244" r="5" fill="#818cf8" filter="url(#dotGlow)" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="5;7;5" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Hero name text with gradient + glow — fade in -->
+  <text
+    x="450" y="128"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-weight="800"
+    font-size="64"
+    text-anchor="middle"
+    fill="url(#heroGrad)"
+    filter="url(#glow)"
+    letter-spacing="2"
+    opacity="0"
+  >
+    Aarush Singh
+    <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin="0.2s" fill="freeze"/>
+  </text>
+
+  <!-- Subtitle line — fade in after hero -->
+  <text
+    x="450" y="167"
+    font-family="'Courier New', 'Fira Code', monospace"
+    font-weight="400"
+    font-size="13.5"
+    text-anchor="middle"
+    fill="#8b949e"
+    letter-spacing="3.5"
+    opacity="0"
+  >
+    FULL STACK  ·  ARTIFICIAL INTELLIGENCE  ·  MACHINE LEARNING
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.8s" fill="freeze"/>
+  </text>
+
+  <!-- "@ Northeastern University" pill -->
+  <g opacity="0">
+    <rect x="305" y="194" width="290" height="30" rx="15" fill="url(#pillGrad)" stroke="#7c3aed" stroke-width="1" stroke-opacity="0.5"/>
+    <text
+      x="450" y="214"
+      font-family="'Courier New', 'Fira Code', monospace"
+      font-size="12"
+      font-weight="600"
+      text-anchor="middle"
+      fill="#c4b5fd"
+      letter-spacing="1.5"
+    >@ Northeastern University</text>
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1.3s" fill="freeze"/>
+  </g>
+
+  <!-- Decorative bottom wave -->
+  <path d="M0,265 Q150,255 300,262 Q450,270 600,260 Q750,250 900,262 L900,280 L0,280 Z" fill="url(#waveGrad)" opacity="0.18"/>
+  <path d="M0,270 Q200,260 400,268 Q600,276 900,266" stroke="url(#waveGrad)" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+  <!-- Bottom border line -->
+  <path d="M0,276 Q225,270 450,276 Q675,282 900,276" stroke="url(#accentGrad)" stroke-width="1.5" fill="none" opacity="0.6"/>
+</svg>

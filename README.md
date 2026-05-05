@@ -1,9 +1,9 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&height=80&lines=Hi+there%2C+I'm+Aarush+Singh+%F0%9F%8E%AF" alt="Header" />
-</h1>
+<p align="center">
+  <img src="./header.svg" width="100%" alt="Aarush Singh — Header"/>
+</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=7DD3FC&center=true&vCenter=true&width=600&lines=Computer+Science+%40+Northeastern+University;Full+Stack+%7C+AI+%7C+Machine+Learning;Building+things+that+actually+work.;Always+learning%2C+always+shipping." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=2000&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+agentic+AI+systems+from+scratch.;Full+stack+%7C+AI+%7C+ML+%E2%80%94+always+shipping.;CS+%40+Northeastern+%7C+specializing+in+AI.;Turning+ideas+into+production+systems." alt="Typing SVG" />
 </p>
 
 <br/>
@@ -15,11 +15,11 @@
 ```yaml
 name       : Aarush Singh
 university : Northeastern University
-major      : Computer Science (AI Concentration)
-focus      : Full Stack Web Dev · Artificial Intelligence · Machine Learning
-currently  : Building, breaking, and rebuilding things
+major      : Computer Science — AI Concentration
+focus      : Full Stack · Artificial Intelligence · Machine Learning
+currently  : Building, breaking, and shipping
 contact    : aarushs684@gmail.com
-portfolio  : aarushsingh.netlify.app
+portfolio  : https://aarushsingh.netlify.app
 ```
 
 ---
@@ -136,11 +136,11 @@ portfolio  : aarushsingh.netlify.app
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=aarush6848ddh&theme=tokyonight&border_radius=10" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=aarush6848ddh&theme=tokyonight&border_radius=10" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=aarush6848ddh&theme=tokyonight&no-frame=true&row=1&column=7" alt="trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=aarush6848ddh&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub Trophies"/>
 </p>
 
 ---
@@ -148,7 +148,7 @@ portfolio  : aarushsingh.netlify.app
 ### `> cat ./activity`
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aarush6848ddh&bg_color=1a1b27&color=a78bfa&line=7c3aed&point=ffffff&area=true&hide_border=true" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aarush6848ddh&bg_color=1a1b27&color=a78bfa&line=7c3aed&point=ffffff&area=true&hide_border=true" alt="Contribution Graph"/>
 </p>
 
 ---
@@ -170,9 +170,5 @@ portfolio  : aarushsingh.netlify.app
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=aarush6848ddh&label=Profile+Views&color=7c3aed&style=for-the-badge" alt="Profile Views" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=9999&color=555555&center=true&vCenter=true&width=400&lines=Thanks+for+stopping+by+%F0%9F%91%8B" alt="Footer" />
+  <img src="https://komarev.com/ghpvc/?username=aarush6848ddh&label=Profile+Views&color=7c3aed&style=for-the-badge" alt="Profile Views"/>
 </p>
