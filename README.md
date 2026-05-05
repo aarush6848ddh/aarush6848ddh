@@ -124,13 +124,13 @@ portfolio  : https://aarushsingh.netlify.app
 ### `> cat ./github-stats`
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aarush6848ddh&show_icons=true&hide_border=true&border_radius=10&bg_color=000000&title_color=e2e8f0&text_color=71717a&icon_color=a1a1aa" height="180em"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=aarush6848ddh&show_icons=true&theme=dark&hide_border=true&border_radius=10&bg_color=0d0d0d&title_color=e2e8f0&text_color=a1a1aa&icon_color=e2e8f0" height="180em"/>
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aarush6848ddh&layout=compact&hide_border=true&border_radius=10&bg_color=000000&title_color=e2e8f0&text_color=71717a" height="180em"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aarush6848ddh&layout=compact&theme=dark&hide_border=true&border_radius=10&bg_color=0d0d0d&title_color=e2e8f0&text_color=a1a1aa" height="180em"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=aarush6848ddh&hide_border=true&border_radius=10&background=000000&ring=a1a1aa&fire=e2e8f0&currStreakLabel=e2e8f0&sideLabels=71717a&currStreakNum=ffffff&sideNums=a1a1aa&dates=3f3f46" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=aarush6848ddh&hide_border=true&border_radius=10&background=0d0d0d&ring=e2e8f0&fire=e2e8f0&currStreakLabel=e2e8f0&sideLabels=a1a1aa&currStreakNum=ffffff&sideNums=e2e8f0&dates=71717a" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
