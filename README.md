@@ -131,9 +131,9 @@ portfolio  : https://aarushsingh.netlify.app
 ### `> cat ./github-stats`
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aarush6848ddh&show_icons=true&theme=dark&hide_border=true&border_radius=10&bg_color=0d0d0d&title_color=e2e8f0&text_color=a1a1aa&icon_color=e2e8f0" height="180em"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=aarush6848ddh&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="180em"/>
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aarush6848ddh&layout=compact&theme=dark&hide_border=true&border_radius=10&bg_color=0d0d0d&title_color=e2e8f0&text_color=a1a1aa" height="180em"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aarush6848ddh&layout=compact&theme=github_dark&hide_border=true" height="180em"/>
 </p>
 
 <p align="center">
