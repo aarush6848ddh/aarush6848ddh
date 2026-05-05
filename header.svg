@@ -4,46 +4,45 @@
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap');
     </style>
 
-    <!-- Background: deep navy → purple -->
+    <!-- Background: pure black to very dark -->
     <linearGradient id="bg" x1="0" y1="0" x2="900" y2="260" gradientUnits="userSpaceOnUse">
-      <stop offset="0%"   stop-color="#0a0818"/>
-      <stop offset="55%"  stop-color="#1a1240"/>
-      <stop offset="100%" stop-color="#0f0c29"/>
+      <stop offset="0%"   stop-color="#000000"/>
+      <stop offset="100%" stop-color="#0c0c0c"/>
     </linearGradient>
 
-    <!-- Radial purple bloom behind name -->
-    <radialGradient id="bloom" cx="50%" cy="48%" r="42%">
-      <stop offset="0%"   stop-color="#6d28d9" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#6d28d9" stop-opacity="0"/>
+    <!-- Subtle radial glow behind name — near-black highlight -->
+    <radialGradient id="bloom" cx="50%" cy="50%" r="40%">
+      <stop offset="0%"   stop-color="#1a1a1a" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Name gradient: violet → indigo → sky -->
+    <!-- Name gradient: white → silver -->
     <linearGradient id="nameGrad" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%"   stop-color="#e879f9"/>
-      <stop offset="40%"  stop-color="#a78bfa"/>
-      <stop offset="100%" stop-color="#67e8f9"/>
+      <stop offset="0%"   stop-color="#ffffff"/>
+      <stop offset="55%"  stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
     </linearGradient>
 
-    <!-- Accent bar gradient -->
+    <!-- Accent: single thin white line, very low opacity -->
     <linearGradient id="accentBar" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%"   stop-color="#7c3aed"/>
-      <stop offset="50%"  stop-color="#6366f1"/>
-      <stop offset="100%" stop-color="#0891b2"/>
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="#ffffff" stop-opacity="0.6"/>
+      <stop offset="70%"  stop-color="#ffffff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Pill fill -->
+    <!-- Pill fill: dark -->
     <linearGradient id="pillFill" x1="0" y1="0" x2="290" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%"   stop-color="#7c3aed" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#0891b2" stop-opacity="0.25"/>
+      <stop offset="0%"   stop-color="#1c1c1e"/>
+      <stop offset="100%" stop-color="#111111"/>
     </linearGradient>
 
-    <!-- Glow filter (tight, not overblown) -->
+    <!-- Glow: tight white bloom -->
     <filter id="glow" x="-15%" y="-40%" width="130%" height="180%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
 
-    <!-- Clip to rounded rect -->
     <clipPath id="roundClip">
       <rect width="900" height="260" rx="14"/>
     </clipPath>
@@ -52,28 +51,25 @@
   <g clip-path="url(#roundClip)">
     <!-- Background -->
     <rect width="900" height="260" fill="url(#bg)"/>
-
-    <!-- Soft purple bloom -->
     <rect width="900" height="260" fill="url(#bloom)"/>
 
-    <!-- Subtle dot grid — left quadrant -->
-    <g fill="#a78bfa" opacity="0.07">
+    <!-- Dot grids — very dark, barely visible -->
+    <g fill="#ffffff" opacity="0.045">
       <circle cx="52"  cy="52"  r="1.2"/><circle cx="88"  cy="52"  r="1.2"/><circle cx="124" cy="52"  r="1.2"/>
       <circle cx="52"  cy="88"  r="1.2"/><circle cx="88"  cy="88"  r="1.2"/><circle cx="124" cy="88"  r="1.2"/>
       <circle cx="52"  cy="124" r="1.2"/><circle cx="88"  cy="124" r="1.2"/><circle cx="124" cy="124" r="1.2"/>
     </g>
-    <!-- Dot grid — right quadrant -->
-    <g fill="#67e8f9" opacity="0.07">
+    <g fill="#ffffff" opacity="0.045">
       <circle cx="776" cy="52"  r="1.2"/><circle cx="812" cy="52"  r="1.2"/><circle cx="848" cy="52"  r="1.2"/>
       <circle cx="776" cy="88"  r="1.2"/><circle cx="812" cy="88"  r="1.2"/><circle cx="848" cy="88"  r="1.2"/>
       <circle cx="776" cy="124" r="1.2"/><circle cx="812" cy="124" r="1.2"/><circle cx="848" cy="124" r="1.2"/>
     </g>
 
-    <!-- Top accent bar (3px, full width) -->
-    <rect x="0" y="0" width="900" height="3" fill="url(#accentBar)"/>
+    <!-- Top accent line -->
+    <rect x="0" y="0" width="900" height="1" fill="url(#accentBar)" opacity="0.5"/>
 
     <!-- ── HERO NAME ── -->
-    <!-- Glow layer (blurred duplicate, invisible to render, used for bloom) -->
+    <!-- Glow bloom pass -->
     <text
       x="450" y="126"
       font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif"
@@ -82,11 +78,11 @@
       text-anchor="middle"
       fill="url(#nameGrad)"
       filter="url(#glow)"
-      opacity="0"
       letter-spacing="-1"
-    >Aarush Singh<animate attributeName="opacity" from="0" to="0.55" dur="1s" begin="0.1s" fill="freeze"/></text>
+      opacity="0"
+    >Aarush Singh<animate attributeName="opacity" from="0" to="0.4" dur="1s" begin="0.1s" fill="freeze"/></text>
 
-    <!-- Crisp name on top -->
+    <!-- Crisp name pass -->
     <text
       x="450" y="126"
       font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif"
@@ -105,34 +101,34 @@
       font-weight="400"
       font-size="12.5"
       text-anchor="middle"
-      fill="#64748b"
+      fill="#3f3f46"
       letter-spacing="4"
       opacity="0"
     >FULL STACK  ·  ARTIFICIAL INTELLIGENCE  ·  MACHINE LEARNING<animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.7s" fill="freeze"/></text>
 
-    <!-- Thin divider line below subtitle -->
-    <line x1="240" y1="178" x2="660" y2="178" stroke="url(#accentBar)" stroke-width="0.5" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.4" dur="0.6s" begin="0.9s" fill="freeze"/>
+    <!-- Divider -->
+    <line x1="240" y1="178" x2="660" y2="178" stroke="#222222" stroke-width="1" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.9s" fill="freeze"/>
     </line>
 
     <!-- ── UNIVERSITY PILL ── -->
     <g opacity="0">
       <rect x="305" y="192" width="290" height="28" rx="14"
         fill="url(#pillFill)"
-        stroke="url(#accentBar)" stroke-width="0.8" stroke-opacity="0.5"/>
+        stroke="#2a2a2a" stroke-width="1"/>
       <text
         x="450" y="211"
         font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace"
         font-weight="600"
         font-size="11.5"
         text-anchor="middle"
-        fill="#c4b5fd"
+        fill="#52525b"
         letter-spacing="1.5"
       >@ Northeastern University</text>
       <animate attributeName="opacity" from="0" to="1" dur="0.7s" begin="1.1s" fill="freeze"/>
     </g>
 
-    <!-- Bottom accent bar -->
-    <rect x="0" y="257" width="900" height="3" fill="url(#accentBar)" opacity="0.7"/>
+    <!-- Bottom accent line -->
+    <rect x="0" y="259" width="900" height="1" fill="url(#accentBar)" opacity="0.5"/>
   </g>
 </svg>
