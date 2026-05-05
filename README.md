@@ -124,17 +124,17 @@ portfolio  : https://aarushsingh.netlify.app
 ### `> cat ./github-stats`
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aarush6848ddh&show_icons=true&theme=tokyonight&border_radius=10&hide_border=false" height="180em"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=aarush6848ddh&show_icons=true&hide_border=true&border_radius=10&bg_color=000000&title_color=e2e8f0&text_color=71717a&icon_color=a1a1aa" height="180em"/>
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aarush6848ddh&layout=compact&theme=tokyonight&border_radius=10&hide_border=false" height="180em"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aarush6848ddh&layout=compact&hide_border=true&border_radius=10&bg_color=000000&title_color=e2e8f0&text_color=71717a" height="180em"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=aarush6848ddh&theme=tokyonight&border_radius=10" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=aarush6848ddh&hide_border=true&border_radius=10&background=000000&ring=a1a1aa&fire=e2e8f0&currStreakLabel=e2e8f0&sideLabels=71717a&currStreakNum=ffffff&sideNums=a1a1aa&dates=3f3f46" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=aarush6848ddh&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=aarush6848ddh&theme=onedark&no-frame=true&row=1&column=7" alt="GitHub Trophies"/>
 </p>
 
 ---
@@ -142,7 +142,7 @@ portfolio  : https://aarushsingh.netlify.app
 ### `> cat ./activity`
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aarush6848ddh&bg_color=1a1b27&color=a78bfa&line=7c3aed&point=ffffff&area=true&hide_border=true" alt="Contribution Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aarush6848ddh&bg_color=000000&color=71717a&line=a1a1aa&point=e2e8f0&area=true&area_color=1c1c1e&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution Graph"/>
 </p>
 
 ---
@@ -163,6 +163,3 @@ portfolio  : https://aarushsingh.netlify.app
   </a>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=aarush6848ddh&label=Profile+Views&color=7c3aed&style=for-the-badge" alt="Profile Views"/>
-</p>
