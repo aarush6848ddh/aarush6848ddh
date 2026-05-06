@@ -8,6 +8,7 @@
 
 ```yaml
 name       : Aarush Singh
+Role       : Incoming FDE Co-Op @ IBM | SWE @ Webster Bank
 university : Northeastern University
 major      : CS + AI
 focus      : Full Stack · Artificial Intelligence · Machine Learning
