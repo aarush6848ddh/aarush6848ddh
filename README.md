@@ -9,7 +9,7 @@
 ```yaml
 name       : Aarush Singh
 university : Northeastern University
-major      : Computer Science — AI Concentration
+major      : CS + AI
 focus      : Full Stack · Artificial Intelligence · Machine Learning
 currently  : Building, breaking, and shipping
 contact    : aarushs684@gmail.com
