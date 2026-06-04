@@ -12,7 +12,6 @@ Role       : Incoming FDE Co-Op @ IBM | SWE @ Webster Bank
 university : Northeastern University
 major      : CS + AI
 focus      : Full Stack · Artificial Intelligence · Machine Learning
-currently  : Building, breaking, and shipping
 contact    : aarushs684@gmail.com
 portfolio  : https://aarushsingh.netlify.app
 ```
